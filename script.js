@@ -8,13 +8,13 @@ function Book(title, author, pages, read) {
     this.author = author;
     this.pages = pages;
     this.read = read;
-};
+}
 
 // Book Prototype Method
 
 Book.prototype.toggleRead = function() {
     this.read = !this.read;
-};
+}
 
 // Add Book to Library
 
